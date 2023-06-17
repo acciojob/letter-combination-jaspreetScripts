@@ -1,16 +1,7 @@
 function letterCombinations(digits) {
   //Complete the function
 
-  // const digitToLetters = {
-  //   '2': 'abc',
-  //   '3': 'def',
-  //   '4': 'ghi',
-  //   '5': 'jkl',
-  //   '6': 'mno',
-  //   '7': 'pqrs',
-  //   '8': 'tuv',
-  //   '9': 'wxyz'
-  // };
+  
 
   var combinations = [];
 
@@ -42,6 +33,6 @@ function letterCombinations(digits) {
   return combinations;
 }
 	
-}
+
 
 module.exports = letterCombinations;
